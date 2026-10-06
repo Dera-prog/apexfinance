@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Apex Finance Blue color system */
+  --apex-blue-900: #0c2d6b;
+  --apex-blue-700: #1749b8;
+  --apex-blue-600: #1d5ce0;
+  --apex-blue-500: #2f74f5;
+  --apex-blue-300: #9dc0ff;
+  --apex-blue-100: #dbe8ff;
+  --apex-blue-50: #eff5ff;
+  --ink: #0f172a;
+  --bg: #f4f6f8;
+  --success: #16a34a;
+  --warning: #f59e0b;
+  --danger: #ef4444;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
